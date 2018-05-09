@@ -21,8 +21,8 @@ ul {
 header {
   background: #35424a;
   color: #fff;
-  padding-top: 30px;
-  min-height: 70px;
+  padding-top: 10px;
+  min-height: 60px;
   border-bottom: #e8491d 3px solid;
 }
 
@@ -63,6 +63,41 @@ header a:hover {
 /** Showcase **/
 
 #showcase {
+  width: 100%;
+  height: auto;
   min-height: 400px;
-  background:url('../img/web.jpg') no-repeat;
+  background:url('../img/web.jpg') no-repeat center;
+  text-align:center;
+  color: #fff;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+/* Newsletter */
+#newsletter {
+  padding: 15px;
+  color: #fff;
+  background: #35424a;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
 }
